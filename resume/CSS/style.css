@@ -1,0 +1,21 @@
+body {
+    background-color: rgb(247, 246, 239);
+}
+
+h1 {
+    background-color: rgb(71, 166, 197);
+    color: antiquewhite;
+    padding: 10px;
+    font-size: 43px;
+    text-align: center;
+}
+
+.column1 {
+    float: left;
+    width: 20%;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
