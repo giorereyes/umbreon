@@ -8,9 +8,7 @@ body {
 .header {
     position: fixed;
     background-color: rgb(71, 166, 197);
-    color: antiquewhite;
     padding: 10px;
-    font-size: 48px;
     text-align: center;
     width: 100%;
     top: 0;
@@ -23,7 +21,7 @@ body {
 .header h1 {
     color: rgb(249, 234, 214);
     font-size: 48px;
-    margin: 5px;
+    margin: 0.2px;
 }
 
 /* MAIN STYLES */
@@ -48,7 +46,20 @@ section .photo{
 
 section .contactInfo {
     line-height: 1.3em;
+    color: rgb(239, 123, 14);
+}
 
+section .links {
+    font-size: 20px;
+    line-height: 1.3em;
+}
+section .links a {
+    color: rgb(71,166,197);
+    text-decoration: none;
+}
+
+section .links a:hover {
+    color: rgb(239, 123, 14);
 }
 
 section .bio {
@@ -59,22 +70,6 @@ section .bio {
     border-color: rgb(71, 166, 197);
     background-color: rgba(71, 166, 197, 0.2)
 }
-
-section .links {
-    font-size: 20px;
-    line-height: 1.3em;
-
-}
-
-section .links a {
-    color: rgb(71,166,197);
-    text-decoration: none !important;
-}
-
-.section .links a:hover {
-    color: rgb(239, 123, 14);
-}
-
 
 @media (max-width: 560px) {
   .photo {
