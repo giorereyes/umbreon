@@ -27,7 +27,7 @@ body {
 /* MAIN STYLES */
 main {
   display: flex; 
-  width: 560px;
+  width: 660px;
   margin: 0 auto;
   margin-top: 80px;
 }
@@ -38,8 +38,8 @@ section {
 }
 
 section .photo{
-  width: 230px;
-  margin-top: -17px;
+  width: 300px;
+  margin-top: -125px;
   margin-left: -55px;
 }
 
@@ -79,7 +79,7 @@ section .bio {
     background-color: rgba(71, 166, 197, 0.2)
 }
 
-@media (max-width: 560px) {
+@media (max-width: 660px) {
   .photo {
     display: none;
   }
