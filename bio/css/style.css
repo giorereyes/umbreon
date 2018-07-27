@@ -21,6 +21,7 @@ body {
 .header h1 {
     color: rgb(249, 234, 214);
     font-size: 48px;
+    text-shadow: 2px 2px rgb(239, 123, 14);
     margin: 0.2px;
 }
 
@@ -33,13 +34,13 @@ main {
 }
 
 section {
-  margin: 5px;
+  margin: 1px;
   margin-top: 13px;
 }
 
 section .photo{
   width: 300px;
-  margin-top: -125px;
+  margin-top: -110px;
   margin-left: -55px;
 }
 
@@ -57,9 +58,9 @@ section .contactInfo {
 }
 
 section .links {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
-    line-height: 1.3em;
+    line-height: 1.2em;
 }
 section .links a {
     color: rgb(71,166,197);
@@ -71,9 +72,13 @@ section .links a:hover {
 }
 
 section .bio {
+    font-size: 19px;
     padding: 15px;
     border: 3px;
-    line-height: 1.3em;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+    line-height: 1.2em;
     border-style: solid;
     border-color: rgb(71, 166, 197);
     background-color: rgba(71, 166, 197, 0.2)
