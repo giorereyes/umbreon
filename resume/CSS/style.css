@@ -16,7 +16,7 @@ h1 {
     margin-right: 0;
     margin-left: 0;
     margin-top: 0;
-    z-index: 100000;
+    z-index: 10000;
     text-shadow: 2px 2px rgb(239, 123, 14);
 }
 
