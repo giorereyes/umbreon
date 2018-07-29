@@ -39,9 +39,8 @@ section {
 }
 
 section .photo{
-  width: 300px;
-  margin-top: -90px;
-  margin-left: -125px;
+  width: 200px;
+  margin-left: -25px;
 }
 
 section .jobTitle {
