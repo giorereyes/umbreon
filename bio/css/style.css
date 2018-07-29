@@ -84,6 +84,26 @@ section .bio {
     background-color: rgba(71, 166, 197, 0.2)
 }
 
+section .bio a {
+    color: rgb(71,166,197);
+    text-decoration: none;
+}
+
+section .bio a:hover {
+    color: rgb(239, 123, 14);
+}
+
+/* section .bio a:hover {
+    position: relative;
+}
+section .bio a:hover:after {
+    content: url(atticus.png);
+    display: block;
+    position: absolute;
+    left: -323px;
+    top: -300px;
+} */
+
 @media (max-width: 660px) {
   .photo {
     display: none;
