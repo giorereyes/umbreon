@@ -31,9 +31,13 @@ main {
     float: left;
 }
 
-h2.column {
-    font-size: 45px;
+h2 {
+    font-size: 35px;
     margin-bottom: -5px;
+}
+
+h3.column {
+    
 }
 
 div.column {
