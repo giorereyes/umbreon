@@ -50,6 +50,10 @@ section .jobTitle {
     color: rgb(239, 123, 14);
 }
 
+section .photoHeadshot {
+    
+}
+
 section .contactInfo {
     font-size: 20px;
     line-height: 1em;
@@ -103,7 +107,7 @@ section .bio a:hover:after {
     top: -300px;
 } */
 
-@media (max-width: 660px) {
+@media (max-width: 670px) {
   .photo {
     display: none;
   }
@@ -112,5 +116,15 @@ section .bio a:hover:after {
   }
   section .bio {
     font-size: 1em;
+    text-align: left;
   }
+  section {
+    text-align: center;}
+}
+
+
+@media (min-width: 669px) {
+    .photoHeadshot {
+      display: none;
+    }
 }
