@@ -79,6 +79,14 @@ section .bio {
     */
 }
 
+section .bio p {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(239, 123, 14);
+    line-height: 1.3em;
+}
+
 section .bio a {
     color: rgb(71,166,197);
     text-decoration: none;
@@ -116,6 +124,9 @@ section .bio a:hover:after {
   section .jobTitle {
       font-weight: bolder;
       font-size: 2em;
+  }
+  section .bio p {
+      font-size: 25px;
   }
 }
 
