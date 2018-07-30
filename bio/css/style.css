@@ -72,10 +72,11 @@ section .bio {
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
-    line-height: 1.1em;
+    /* line-height: 1.1em;
     border-style: solid;
     border-color: rgb(71, 166, 197);
     background-color: rgba(71, 166, 197, 0.2)
+    */
 }
 
 section .bio a {
