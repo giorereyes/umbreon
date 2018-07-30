@@ -9,9 +9,10 @@ body {
     position: fixed;
     background-color: rgb(71, 166, 197);
     padding: 10px;
-    text-align: center;
     width: 100%;
     top: 0;
+    text-align: center;
+    margin-right: 0;
 }
 .header h1 {
     color: rgb(249, 234, 214);
