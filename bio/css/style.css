@@ -12,11 +12,6 @@ body {
     text-align: center;
     width: 100%;
     top: 0;
-    left: 0;
-    margin-right: 0;
-    margin-left: 0;
-    margin-top: 0;
-    z-index: 100000;
 }
 .header h1 {
     color: rgb(249, 234, 214);
@@ -48,10 +43,6 @@ section .jobTitle {
     font-weight: bold;
     line-height: 1em;
     color: rgb(239, 123, 14);
-}
-
-section .photoHeadshot {
-    
 }
 
 section .contactInfo {
@@ -119,7 +110,12 @@ section .bio a:hover:after {
     text-align: left;
   }
   section {
-    text-align: center;}
+    text-align: center;
+  }
+  section .jobTitle {
+      font-weight: bolder;
+      font-size: 2em;
+  }
 }
 
 @media (min-width: 669px) {
