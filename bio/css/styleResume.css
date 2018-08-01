@@ -87,7 +87,7 @@ ul.list {
     main {
       width: 100%;
     } 
-    .header h1 {
+    h1 {
         font-size: 38px;
     }
   }
