@@ -129,6 +129,9 @@ section .bio a:hover:after {
   section .bio p {
       font-size: 23px;
   }
+  .header h1 {
+      font-size: 38px;
+  }
 }
 
 @media (min-width: 669px) {
