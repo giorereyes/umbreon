@@ -28,17 +28,13 @@ main {
     word-wrap: break-word;
   }
 
-  div.column1 {
+div.column1 {
     float: left;
 }
 
 h2 {
     font-size: 35px;
     margin-top: 20px;
-}
-
-h2 .column {
-    
 }
 
 h3.column {
@@ -50,6 +46,7 @@ div.column {
     float: left;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 20px;
 }
 
 div.top {
@@ -78,7 +75,7 @@ p.date {
 
 ul.list {
     margin-top: 5px;
-    margin-left: 15px;
+    margin-left: 22px;
     
 }
 
