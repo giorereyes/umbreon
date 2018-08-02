@@ -67,7 +67,7 @@ section .links a:hover {
 }
 
 
-/*
+
 .button {
     display: inline-block;
     border-radius: 4px;
@@ -82,7 +82,12 @@ section .links a:hover {
     cursor: pointer;
     margin: 1px;
   }
-  
+
+.button:hover {
+    background-color: rgb(239, 123, 14)
+}
+
+/*
   .button span {
     cursor: pointer;
     display: inline-block;
@@ -106,8 +111,8 @@ section .links a:hover {
   .button:hover span:after {
     opacity: 1;
     right: 0;
-  } */
-
+  } 
+*/
 
 
 section .bio {
