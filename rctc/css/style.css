@@ -1,0 +1,63 @@
+/* BODY STYLES */
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+
+
+/* HEADER STYLES */
+header {
+    background-color: rgb(249, 223, 107);
+    padding: 10px;
+    width: 100%;
+    height: 15px;
+    top: 0;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(114, 41, 81);
+}
+
+/* LINK STYLES */
+.link a {
+    padding-right: 20px;
+    float: right;
+    text-decoration: none;
+    color: rgb(114, 41, 81);
+}
+
+.social a {
+    float: left;
+    text-decoration: none;
+    color: rgb(114, 41, 81);
+}
+
+ .twitter a {
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+.facebook a {
+    margin-top: -40px;
+    margin-left: 55px;
+} 
+
+/* MAIN STYLES */
+main {
+    display: flex;
+    margin: 0 auto;
+  }
+
+
+/* LOGO STYLES */
+.logo {
+    margin-left: 20px;
+    margin-top: 5px;
+  }
+
+  /* RACE PHOTO STYLES */
+.racePhoto  {
+     height: 220px; 
+     margin-top: 200px; 
+ }
+
+
