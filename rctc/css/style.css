@@ -34,7 +34,6 @@ header {
     float: left;
     text-decoration: none;
     color: rgb(114, 41, 81);
-    margin-left: 5px;
 }
 
  .twitter a {
@@ -60,8 +59,8 @@ main {
   }
 
   /* ABOUT STYLES */
-.about {
-    margin-top: -168px;
+#about {
+    margin-top: -164px;
     margin-left: 200px;
     width: 710px;
 }
@@ -81,12 +80,17 @@ main {
     text-align: center;
  }
 
- .calendar a {
+.calendar a {
     text-decoration: none;
     color: rgb(114, 41, 81);
     font-weight: bold;
     font-size: 20px;
  }
+
+.calendar a:hover {
+    box-shadow: 0 10px 10px -10px rgb(114, 41, 81);
+}
+
  .calendar img  {
     width: 230px;
     height: 230px;
@@ -107,6 +111,10 @@ main {
     font-size: 20px;
  }
 
+.photos a:hover {
+    box-shadow: 0 10px 10px -10px rgb(114, 41, 81);
+}
+
  .photos img  { 
     width: 230px;
     height: 230px;
@@ -126,6 +134,10 @@ main {
     font-weight: bold;
     font-size: 20px;
  }
+
+.team a:hover {
+    box-shadow: 0 10px 10px -10px rgb(114, 41, 81);
+}
 
  .team img  { 
     width: 230px;
