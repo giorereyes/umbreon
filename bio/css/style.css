@@ -27,25 +27,23 @@ main {
   width: 660px;
   margin: 0 auto;
   margin-top: 80px;
-  margin-bottom: 150px;
-  padding: 8px;
 }
 
-
+section {
+  margin: 1px;
+  margin-top: 13px;
+}
 
 section .photo{
-  width: 231px;
-  margin-left: -60px;
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
-  top: 85;
+  width: 227px;
+  margin-left: -51px;
 }
 
 section .jobTitle {
-    font-size: 23px !important;
-    font-weight: bold !important;
-    line-height: 1em !important;
-    color: rgb(239, 123, 14) !important;
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1em;
+    color: rgb(239, 123, 14);
 }
 
 section .contactInfo {
@@ -68,12 +66,71 @@ section .links a:hover {
     color: rgb(239, 123, 14);
 }
 
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(71, 166, 197);
+    border: none;
+    color: rgb(249, 234, 214);
+    text-align: center;
+    font-size: 18px;
+    padding: 2px;
+    width: 134px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 1px;
+  }
+
+.lastButton {
+    margin-bottom: -13px;
+}
+
+.button:hover {
+    background-color: rgb(239, 123, 14)
+}
+
+/*
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 15px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  } 
+*/
+
+
 section .bio {
     font-size: 19px;
+    padding: 8px;
     border: 3px;
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
+    /* line-height: 1.1em;
+    border-style: solid;
+    border-color: rgb(71, 166, 197);
+    background-color: rgba(71, 166, 197, 0.2)
+    */
 }
 
 section .bio p {
@@ -93,6 +150,17 @@ section .bio a:hover {
     color: rgb(239, 123, 14);
 }
 
+/* section .bio a:hover {
+    position: relative;
+}
+section .bio a:hover:after {
+    content: url(atticus.png);
+    display: block;
+    position: absolute;
+    left: -323px;
+    top: -300px;
+} */
+
 @media (max-width: 670px) {
   .photo {
     display: none;
@@ -105,23 +173,12 @@ section .bio a:hover {
     font-size: 1em;
     text-align: left;
   }
-
-  section .photoHeadshot {
+  section {
     text-align: center;
   }
-
-  section .links {
-    text-align: center;
-  }
-
-  section .contactInfo {
-    text-align: center;
-  }
-
   section .jobTitle {
-      text-align: center !important;
-      font-weight: bolder !important;
-      font-size: 2em !important;
+      font-weight: bolder;
+      font-size: 2em;
   }
   section .bio p {
       font-size: 23px;
@@ -135,94 +192,4 @@ section .bio a:hover {
     .photoHeadshot {
       display: none;
     }
-}
-
-
-/* RESUME STYLES */
-
-.resume {
-    margin-top: px;
-}
-
-.resume p {
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(239, 123, 14);
-    line-height: 1.3em;
-    margin-bottom: -18px;
-    margin-top: 20px;
-}
-
-h2 {
-    font-size: 35px;
-    margin-top: 20px;
-}
-
-h3 {
-    margin-top: 20px;
-    font-size: 22px;
-    color: rgb(239, 123, 14);
-}
-
-div.top {
-    margin-top: 84px;
-}
-
-p.date {
-    text-align: left;
-    font-size: 20px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    color: rgb(71, 166, 197);
-}
-
-ul.list {
-    margin-top: 5px;
-    margin-left: 22px;
-    font-size: 19px;
-}
-
-/* EDUCATION STYLES */
-
-.education p {
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(239, 123, 14);
-    line-height: 1.3em;
-    margin-bottom: -18px;
-    margin-top: 20px;
-}
-
-div .date {
-    text-align: left;
-    font-size: 20px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    color: rgb(71, 166, 197);
-}
-
-/* RECOMMENDATION STYLES */
-
-.recommendation p {
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(239, 123, 14);
-    line-height: 1.3em;
-    margin-bottom: -18px;
-    margin-top: 20px;
-}
-
-div .jobTitle {
-    text-align: left;
-    font-size: 20px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    color: rgb(71, 166, 197);
-}
-
-div .recommendation {
-    font-size: 19px;
 }
