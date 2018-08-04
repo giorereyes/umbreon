@@ -8,9 +8,10 @@ body {
 /* HEADER STYLES */
 header {
     background-color: rgb(249, 223, 107);
-    padding: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
     width: 100%;
-    height: 15px;
+    height: 25px;
     top: 0;
     text-align: center;
     font-size: 20px;
@@ -19,16 +20,21 @@ header {
 
 /* LINK STYLES */
 .link a {
-    padding-right: 20px;
+    margin-right: 20px;
     float: right;
     text-decoration: none;
     color: rgb(114, 41, 81);
+}
+
+.donate a {
+    padding-right: 2px !important;
 }
 
 .social a {
     float: left;
     text-decoration: none;
     color: rgb(114, 41, 81);
+    margin-left: 5px;
 }
 
  .twitter a {
@@ -43,21 +49,87 @@ header {
 
 /* MAIN STYLES */
 main {
-    display: flex;
+    width: 960px;
     margin: 0 auto;
   }
 
 
 /* LOGO STYLES */
 .logo {
-    margin-left: 20px;
     margin-top: 5px;
   }
 
-  /* RACE PHOTO STYLES */
-.racePhoto  {
-     height: 220px; 
-     margin-top: 200px; 
+  /* ABOUT STYLES */
+.about {
+    margin-top: -168px;
+    margin-left: 200px;
+    width: 710px;
+}
+
+/* CONTENT STYLES */
+.content  { 
+    display: flex;
+    float: left;
+    margin-top: 50px;
+    margin-left: 200px;
+ }
+
+/* RACE RALENDAR STYLES */
+.calendar  {
+    width: 230px;
+    height: 230px;
+    text-align: center;
+ }
+
+ .calendar a {
+    text-decoration: none;
+    color: rgb(114, 41, 81);
+    font-weight: bold;
+    font-size: 20px;
+ }
+ .calendar img  {
+    width: 230px;
+    height: 230px;
+ }
+
+/* RACE PHOTOS STYLES */
+.photos  { 
+    margin-left: 10px;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+ }
+
+ .photos a {
+    text-decoration: none;
+    color: rgb(114, 41, 81);
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .photos img  { 
+    width: 230px;
+    height: 230px;
+ }
+
+ /* TEAM MEMBERS STYLES */
+.team  {
+    margin-left: 10px;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+ }
+
+ .team a {
+    text-decoration: none;
+    color: rgb(114, 41, 81);
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .team img  { 
+    width: 230px;
+    height: 230px;
  }
 
 
