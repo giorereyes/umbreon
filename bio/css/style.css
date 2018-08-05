@@ -11,15 +11,15 @@ body {
     padding: 10px;
     width: 100%;
     top: 0;
-    text-align: center;
     margin-right: 0;
 }
 
-.header h1 {
+.header p {
     color: rgb(249, 234, 214);
     font-size: 48px;
     text-shadow: 2px 2px rgb(239, 123, 14);
     margin: 0.2px;
+    text-align: center;
 }
 
 /* MAIN STYLES */
@@ -59,6 +59,7 @@ section {
     font-weight: bold;
     line-height: 1em;
     color: rgb(239, 123, 14);
+    letter-spacing: -1px;
 }
 
 /* MOBILE PHOTO */
@@ -111,6 +112,7 @@ section {
     color: rgb(239, 123, 14);
     line-height: 1.3em;
     margin-bottom: 5px;
+    letter-spacing: -1px;
 }
 
 .bio a {
@@ -139,6 +141,7 @@ section {
     color: rgb(239, 123, 14);
     line-height: 1.3em;
     margin-bottom: 5px;
+    letter-spacing: -1px;
 }
 
 .myJobTitle {
@@ -170,6 +173,7 @@ section {
     color: rgb(239, 123, 14);
     line-height: 1.3em;
     margin-bottom: 5px;
+    letter-spacing: -1px;
 }
 
 
@@ -188,6 +192,7 @@ section {
     color: rgb(239, 123, 14);
     line-height: 1.3em;
     margin-bottom: 5px;
+    letter-spacing: -1px;
 }
 
 .recName {
