@@ -7,7 +7,7 @@ body {
 /* HEADER STYLES */
 .header {
     position: fixed;
-    background-color: rgb(71, 166, 197);
+    background-color: rgb(68, 190, 203);
     padding: 10px;
     width: 100%;
     top: 0;
@@ -34,9 +34,14 @@ section {
   margin-top: 13px;
 }
 
-section .photo{
-  width: 227px;
-  margin-left: -51px;
+section .photo img {
+    margin-right: 5px;
+    margin-left: -42px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    height: 200px;
+    position: relative;
+    width: 200px;
 }
 
 section .jobTitle {
@@ -44,6 +49,15 @@ section .jobTitle {
     font-weight: bold;
     line-height: 1em;
     color: rgb(239, 123, 14);
+}
+
+section .photoHeadshot img {
+        border: 5px solid #fff;
+        border-radius: 50%;
+        height: 150px;
+        position: relative;
+        width: 150px;
+    }
 }
 
 section .contactInfo {
@@ -58,65 +72,13 @@ section .links {
     line-height: 1.2em;
 }
 section .links a {
-    color: rgb(71,166,197);
+    color: rgb(68, 190, 203);
     text-decoration: none;
 }
 
 section .links a:hover {
     color: rgb(239, 123, 14);
 }
-
-
-
-.button {
-    display: inline-block;
-    border-radius: 4px;
-    background-color: rgb(71, 166, 197);
-    border: none;
-    color: rgb(249, 234, 214);
-    text-align: center;
-    font-size: 18px;
-    padding: 2px;
-    width: 134px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 1px;
-  }
-
-.lastButton {
-    margin-bottom: -13px;
-}
-
-.button:hover {
-    background-color: rgb(239, 123, 14)
-}
-
-/*
-  .button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.5s;
-  }
-  
-  .button span:after {
-    content: '\00bb';
-    position: absolute;
-    opacity: 0;
-    top: 0;
-    right: -20px;
-    transition: 0.5s;
-  }
-  
-  .button:hover span {
-    padding-right: 15px;
-  }
-  
-  .button:hover span:after {
-    opacity: 1;
-    right: 0;
-  } 
-*/
 
 
 section .bio {
@@ -126,11 +88,6 @@ section .bio {
     -webkit-hyphens: manual;
     -ms-hyphens: manual;
     hyphens: manual;
-    /* line-height: 1.1em;
-    border-style: solid;
-    border-color: rgb(71, 166, 197);
-    background-color: rgba(71, 166, 197, 0.2)
-    */
 }
 
 section .bio p {
@@ -142,7 +99,7 @@ section .bio p {
 }
 
 section .bio a {
-    color: rgb(71,166,197);
+    color: rgb(68, 190, 203);
     text-decoration: none;
 }
 
