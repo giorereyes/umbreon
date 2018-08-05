@@ -14,6 +14,7 @@ body {
     text-align: center;
     margin-right: 0;
 }
+
 .header h1 {
     color: rgb(249, 234, 214);
     font-size: 48px;
@@ -34,6 +35,7 @@ section {
   margin-top: 13px;
 }
 
+/* PHOTO STYLE */
 section .photo img {
     margin-right: 5px;
     margin-left: -42px;
@@ -45,6 +47,7 @@ section .photo img {
     z-index: -2;
 }
 
+/* JOB TITLE */
 section .jobTitle {
     font-size: 23px;
     font-weight: bold;
@@ -52,6 +55,7 @@ section .jobTitle {
     color: rgb(239, 123, 14);
 }
 
+/* MOBILE PHOTO */
 section .photoHeadshot img {
         border: 5px solid #fff;
         border-radius: 50%;
@@ -61,17 +65,20 @@ section .photoHeadshot img {
         z-index: -2;
 }
 
+/* CONTACT INFO */
 section .contactInfo {
     font-size: 20px;
     line-height: 1em;
     color: rgb(239, 123, 14);
 }
 
+/* LINKS */
 section .links {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.2em;
 }
+
 section .links a {
     color: rgb(68, 190, 203);
     text-decoration: none;
@@ -81,7 +88,7 @@ section .links a:hover {
     color: rgb(239, 123, 14);
 }
 
-
+/* BIO */
 section .bio {
     font-size: 19px;
     padding: 8px;
@@ -108,17 +115,17 @@ section .bio a:hover {
     color: rgb(239, 123, 14);
 }
 
-/* section .bio a:hover {
-    position: relative;
-}
-section .bio a:hover:after {
-    content: url(atticus.png);
-    display: block;
-    position: absolute;
-    left: -323px;
-    top: -300px;
-} */
+/* RESUME */
 
+
+
+
+
+
+
+
+
+/* MOBILE MEDIA QUERY */
 @media (max-width: 670px) {
   .photo {
     display: none;
