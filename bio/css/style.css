@@ -42,6 +42,7 @@ section .photo img {
     height: 200px;
     position: relative;
     width: 200px;
+    z-index: -2;
 }
 
 section .jobTitle {
@@ -57,6 +58,7 @@ section .photoHeadshot img {
         height: 150px;
         position: relative;
         width: 150px;
+        z-index: -2;
 }
 
 section .contactInfo {
