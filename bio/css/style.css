@@ -36,7 +36,7 @@ section {
 }
 
 /* PHOTO STYLE */
-section .photo img {
+.photo img {
     margin-right: 5px;
     margin-left: -42px;
     border: 5px solid #fff;
@@ -48,7 +48,7 @@ section .photo img {
 }
 
 /* JOB TITLE */
-section .jobTitle {
+.jobTitle {
     font-size: 23px;
     font-weight: bold;
     line-height: 1em;
@@ -56,7 +56,7 @@ section .jobTitle {
 }
 
 /* MOBILE PHOTO */
-section .photoHeadshot img {
+.photoHeadshot img {
         border: 5px solid #fff;
         border-radius: 50%;
         height: 150px;
@@ -66,30 +66,30 @@ section .photoHeadshot img {
 }
 
 /* CONTACT INFO */
-section .contactInfo {
+.contactInfo {
     font-size: 20px;
     line-height: 1em;
     color: rgb(239, 123, 14);
 }
 
 /* LINKS */
-section .links {
+.links {
     font-size: 18px;
     font-weight: bold;
     line-height: 1.2em;
 }
 
-section .links a {
+.links a {
     color: rgb(68, 190, 203);
     text-decoration: none;
 }
 
-section .links a:hover {
+.links a:hover {
     color: rgb(239, 123, 14);
 }
 
 /* BIO */
-section .bio {
+.bio {
     font-size: 19px;
     padding: 8px;
     border: 3px;
@@ -98,27 +98,109 @@ section .bio {
     hyphens: manual;
 }
 
-section .bio p {
+.bio p {
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
     color: rgb(239, 123, 14);
     line-height: 1.3em;
+    margin-bottom: 5px;
 }
 
-section .bio a {
+.bio a {
     color: rgb(68, 190, 203);
     text-decoration: none;
 }
 
-section .bio a:hover {
+.bio a:hover {
     color: rgb(239, 123, 14);
 }
 
 /* RESUME */
+.resume {
+    font-size: 19px;
+    padding: 8px;
+    border: 3px;
+    -webkit-hyphens: manual;
+    -ms-hyphens: manual;
+    hyphens: manual;
+}
+
+.resumeHead {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(239, 123, 14);
+    line-height: 1.3em;
+    margin-bottom: 5px;
+}
+
+.myJobTitle {
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1em;
+    color: rgb(68, 190, 203);
+}
+
+.resume ul {
+    margin-bottom: 20px;
+}
+.resume li {
+    margin-left: 20px;
+}
+
+.date {
+    font-size: 20px;
+    line-height: 1em;
+    color: rgb(239, 123, 14);
+    margin-top: 2px;
+}
+
+/* EDUCATION */
+.educationHead {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(239, 123, 14);
+    line-height: 1.3em;
+    margin-bottom: 5px;
+}
 
 
+.school {
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1em;
+    color: rgb(68, 190, 203);
+}
 
+/* RECOMMENDATIONS */
+.recommendationsHead {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(239, 123, 14);
+    line-height: 1.3em;
+    margin-bottom: 5px;
+}
+
+.recName {
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1em;
+    color: rgb(68, 190, 203);
+}
+
+.recJobTitle {
+    font-size: 20px;
+    line-height: 1em;
+    color: rgb(239, 123, 14);
+    margin-top: 2px;
+}
+
+.recommendation {
+    margin-bottom: 15px;
+}
 
 
 
@@ -135,7 +217,15 @@ section .bio a:hover {
     margin-top: 60px;
   }
   section .bio {
-    font-size: 1em;
+    font-size: 16px;
+    text-align: left;
+  }
+  li {
+    font-size: 16px;
+    text-align: left;
+  }
+  p {
+    font-size: 16px;
     text-align: left;
   }
   section {
