@@ -20,6 +20,7 @@ body {
     text-shadow: 2px 2px rgb(239, 123, 14);
     margin: 0.2px;
     text-align: center;
+    letter-spacing: -2px;
 }
 
 /* MAIN STYLES */
@@ -31,7 +32,8 @@ main {
 }
 
 .mainContent {
-    margin-left: 180px;
+    margin-left: 195px;
+    margin-top: -10px;
 }
 
 section {
@@ -255,7 +257,8 @@ section {
   }
   .mainContent {
     margin-left: 0;
-}
+    margin-top: 0;
+  }
 }
 
 @media (min-width: 669px) {
