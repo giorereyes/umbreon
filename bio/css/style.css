@@ -30,6 +30,10 @@ main {
   margin-top: 80px;
 }
 
+.mainContent {
+    margin-left: 180px;
+}
+
 section {
   margin: 1px;
   margin-top: 13px;
@@ -39,17 +43,19 @@ section {
 .photo img {
     margin-right: 5px;
     margin-left: -42px;
+    margin-top: -15px;
     border: 5px solid #fff;
     border-radius: 50%;
     height: 200px;
-    position: relative;
     width: 200px;
     z-index: -2;
+    position: fixed;
 }
+
 
 /* JOB TITLE */
 .jobTitle {
-    font-size: 23px;
+    font-size: 30px;
     font-weight: bold;
     line-height: 1em;
     color: rgb(239, 123, 14);
@@ -196,6 +202,7 @@ section {
     line-height: 1em;
     color: rgb(239, 123, 14);
     margin-top: 2px;
+    margin-bottom: 2px;
 }
 
 .recommendation {
@@ -241,6 +248,9 @@ section {
   .header h1 {
       font-size: 38px;
   }
+  .mainContent {
+    margin-left: 0;
+}
 }
 
 @media (min-width: 669px) {
