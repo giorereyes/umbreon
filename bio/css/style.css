@@ -23,6 +23,37 @@ body {
     letter-spacing: -2px;
 }
 
+/* PHOTO STYLE */
+.photo img {
+    margin-right: 5px;
+    margin-left: -15px;
+    margin-top: -15px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    z-index: -2;
+    position: fixed;
+}
+
+/* SKILLS STYLE */
+.skills {
+    position: fixed;
+    width: 200px;
+    margin-top: 210px;
+    font-size: 17px;
+}
+
+.skillsHead {
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(239, 123, 14);
+    line-height: 1.3em;
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+}
+
 /* MAIN STYLES */
 main {
   display: flex; 
@@ -40,20 +71,6 @@ section {
   margin: 1px;
   margin-top: 13px;
 }
-
-/* PHOTO STYLE */
-.photo img {
-    margin-right: 5px;
-    margin-left: -15px;
-    margin-top: -15px;
-    border: 5px solid #fff;
-    border-radius: 50%;
-    height: 200px;
-    width: 200px;
-    z-index: -2;
-    position: fixed;
-}
-
 
 /* JOB TITLE */
 .jobTitle {
@@ -267,6 +284,9 @@ section {
   }
   .recommendationsHead {
     font-size: 23px;
+  }
+  .skills {
+      display: none;
   }
 }
 
