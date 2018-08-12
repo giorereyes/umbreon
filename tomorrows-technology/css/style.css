@@ -23,8 +23,23 @@ img {
 
 .topStories {
     width: 200px;
-    background-color: aqua;
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
+.topStoriesHeadline {
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    border-bottom: 1px solid black;
+}
+
+.titles {
+    font-weight: bold;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
 
 main .article {
     display: flex;
