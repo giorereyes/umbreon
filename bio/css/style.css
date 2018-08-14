@@ -31,9 +31,9 @@ body {
 /* LINKS */
 .links {
     float: right;
-    margin-right: 17px;
+    margin-right: 40px;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: bolder;
     z-index: 103;
     color: rgb(239, 123, 14);
 }
@@ -118,14 +118,14 @@ section {
     margin-top: 60px;
   }
   section .bio {
-    font-size: 16px;
+    font-size: 20px;
     text-align: left;
   }
   section {
     text-align: center;
   }
   section .bio p {
-      font-size: 23px;
+      font-size: 28px;
   }
   .mainContent {
     margin-left: 0;
