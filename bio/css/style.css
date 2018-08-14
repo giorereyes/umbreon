@@ -7,7 +7,7 @@ body {
 /* HEADER STYLES */
 .header {
     position: fixed;
-    background-color: rgb(68, 190, 203);
+    background-color: rgb(54, 184, 201);
     padding: 10px;
     width: 100%;
     top: 0;
@@ -28,6 +28,25 @@ body {
     letter-spacing: -2px;
 }
 
+/* LINKS */
+.links {
+    float: right;
+    margin-right: 17px;
+    font-size: 28px;
+    font-weight: bold;
+    z-index: 103;
+    color: rgb(239, 123, 14);
+}
+
+.links a {
+    color: rgb(239, 123, 14);
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: rgb(239, 123, 14);
+}
+
 /* PHOTO STYLE */
 .photo img {
     margin-right: 5px;
@@ -39,24 +58,6 @@ body {
     width: 200px;
     z-index: -2;
     position: fixed;
-}
-
-/* SKILLS STYLE */
-.skills {
-    position: fixed;
-    width: 200px;
-    margin-top: 210px;
-    font-size: 16px;
-}
-
-.skillsHead {
-    font-size: 25px;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(239, 123, 14);
-    line-height: 1.3em;
-    margin-bottom: 5px;
-    letter-spacing: -1px;
 }
 
 /* MAIN STYLES */
@@ -77,15 +78,6 @@ section {
   margin-top: 13px;
 }
 
-/* JOB TITLE */
-.jobTitle {
-    font-size: 30px;
-    font-weight: bold;
-    line-height: 1em;
-    color: rgb(239, 123, 14);
-    letter-spacing: -1px;
-}
-
 /* MOBILE PHOTO */
 .photoHeadshot img {
         border: 5px solid #fff;
@@ -96,37 +88,10 @@ section {
         z-index: -2;
 }
 
-/* CONTACT INFO */
-.contactInfo {
-    font-size: 20px;
-    line-height: 1em;
-    color: rgb(239, 123, 14);
-}
-
-/* LINKS */
-.links {
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 1.2em;
-}
-
-.links a {
-    color: rgb(68, 190, 203);
-    text-decoration: none;
-}
-
-.links a:hover {
-    color: rgb(239, 123, 14);
-}
-
 /* BIO */
 .bio {
     font-size: 19px;
     padding: 8px;
-    border: 3px;
-    -webkit-hyphens: manual;
-    -ms-hyphens: manual;
-    hyphens: manual;
 }
 
 .bio p {
@@ -137,108 +102,8 @@ section {
     line-height: 1.3em;
     margin-bottom: 5px;
     letter-spacing: -1px;
+    margin-top: -10px;
 }
-
-.bio a {
-    color: rgb(68, 190, 203);
-    text-decoration: none;
-}
-
-.bio a:hover {
-    color: rgb(239, 123, 14);
-}
-
-/* RESUME */
-.resume {
-    font-size: 19px;
-    padding: 8px;
-    border: 3px;
-    -webkit-hyphens: manual;
-    -ms-hyphens: manual;
-    hyphens: manual;
-}
-
-.resumeHead {
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(239, 123, 14);
-    line-height: 1.3em;
-    margin-bottom: 5px;
-    letter-spacing: -1px;
-}
-
-.myJobTitle {
-    font-size: 23px;
-    font-weight: bold;
-    line-height: 1em;
-    color: rgb(68, 190, 203);
-}
-
-.resume ul {
-    margin-bottom: 20px;
-}
-.resume li {
-    margin-left: 20px;
-}
-
-.date {
-    font-size: 20px;
-    line-height: 1em;
-    color: rgb(239, 123, 14);
-    margin-top: 2px;
-}
-
-/* EDUCATION */
-.educationHead {
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(239, 123, 14);
-    line-height: 1.3em;
-    margin-bottom: 5px;
-    letter-spacing: -1px;
-}
-
-
-.school {
-    font-size: 23px;
-    font-weight: bold;
-    line-height: 1em;
-    color: rgb(68, 190, 203);
-}
-
-/* RECOMMENDATIONS */
-.recommendationsHead {
-    font-size: 30px;
-    font-weight: bolder;
-    text-align: center;
-    color: rgb(239, 123, 14);
-    line-height: 1.3em;
-    margin-bottom: 5px;
-    letter-spacing: -1px;
-}
-
-.recName {
-    font-size: 23px;
-    font-weight: bold;
-    line-height: 1em;
-    color: rgb(68, 190, 203);
-}
-
-.recJobTitle {
-    font-size: 20px;
-    line-height: 1em;
-    color: rgb(239, 123, 14);
-    margin-top: 2px;
-    margin-bottom: 2px;
-}
-
-.recommendation {
-    margin-bottom: 15px;
-}
-
-
 
 
 
@@ -256,42 +121,15 @@ section {
     font-size: 16px;
     text-align: left;
   }
-  li {
-    font-size: 16px;
-    text-align: left;
-  }
-  p {
-    font-size: 16px;
-    text-align: left;
-  }
   section {
     text-align: center;
-  }
-  section .jobTitle {
-      font-weight: bolder;
-      font-size: 2em;
   }
   section .bio p {
       font-size: 23px;
   }
-  .header h1 {
-      font-size: 38px;
-  }
   .mainContent {
     margin-left: 0;
     margin-top: 0;
-  }
-  .resumeHead {
-    font-size: 23px;
-  }
-  .educationHead {
-    font-size: 23px;
-  }
-  .recommendationsHead {
-    font-size: 23px;
-  }
-  .skills {
-      display: none;
   }
 }
 
