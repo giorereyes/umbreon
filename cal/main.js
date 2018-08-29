@@ -1,38 +1,42 @@
 function addNumber(num) {
     document.querySelector("#results").value += num;
-  }
-  
-  function clearResults() {
+}
+
+function clearResults() {
     document.querySelector("#results").value = "";
-  }
-  
-  function addition() {
+}
+
+function addition() {
     document.querySelector("#results").value += "+";
-  }
-  
-  function subtraction() {
+}
+
+function subtraction() {
     document.querySelector("#results").value += "-";
-  }
-  
-  function multi() {
+}
+
+function multi() {
     document.querySelector("#results").value += "*";
-  }
-  
-  function inverse() {
+}
+
+function point() {
+    document.querySelector("#results").value += ".";
+}
+
+function inverse() {
     document.querySelector("#results").value = 
     eval(document.querySelector("#results").value)*-1;
-  }
-  
-  function divide() {
+}
+
+function divide() {
     document.querySelector("#results").value += "/";
-  }
-  
-  
-  function equals() {
+}
+
+
+function equals() {
     document.querySelector("#results").value = eval(document.querySelector("#results").value);
-  }
-  
-  function deleteLast() {
+}
+
+function deleteLast() {
     let current = document.querySelector("#results").value;
     document.querySelector("#results").value = current.slice(0, -1);
-  }
+}

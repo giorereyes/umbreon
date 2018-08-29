@@ -1,15 +1,25 @@
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 30px;
+    border: 2px solid black;
+    width: 422px;
+}
+
 #wrapper {
-    width: 200px;
+    background: linear-gradient(rgb(54, 184, 201), white);
+    width: 420px;
     margin-left: 2px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 2px;
   }
   
   #results {
+    font-size: 30px;
+    background: rgb(54, 184, 201);
+    color: white;
     grid-column: span 4;
-    width: 194px;
+    width: 414px;
   }
   
   #delcl {
@@ -17,7 +27,7 @@
   }
   
   .num {
-    border: 1px solid black;
+    border: 2px solid white;
     text-align: center;
     cursor: pointer;
   }
