@@ -1,0 +1,23 @@
+#wrapper {
+    width: 200px;
+    margin-left: 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2px;
+  }
+  
+  #results {
+    grid-column: span 4;
+    width: 194px;
+  }
+  
+  #delcl {
+    grid-column: span 2;
+  }
+  
+  .num {
+    border: 1px solid black;
+    text-align: center;
+    cursor: pointer;
+  }
