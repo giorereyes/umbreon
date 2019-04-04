@@ -52,6 +52,7 @@ body {
     margin-right: 5px;
     margin-left: -15px;
     margin-top: -15px;
+    background-color: rgb(54, 184, 201);
     border: 5px solid #fff;
     border-radius: 50%;
     height: 200px;
@@ -81,6 +82,7 @@ section {
 /* MOBILE PHOTO */
 .photoHeadshot img {
         border: 5px solid #fff;
+        background-color: rgb(54, 184, 201);
         border-radius: 50%;
         height: 150px;
         position: relative;
