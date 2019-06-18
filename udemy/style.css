@@ -1,0 +1,17 @@
+/* Selector {
+    Property: value;
+} */
+
+h2 {
+    color: green;
+}
+
+p {
+    color: rgb(17, 0, 255);
+}
+
+/* Cascading always takes the selector that is in the end */
+
+p {
+    color: red;
+}
