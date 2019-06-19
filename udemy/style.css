@@ -2,16 +2,23 @@
     Property: value;
 } */
 
+body {
+    background-color: #68CFCF;   
+}
+
 h2 {
-    color: green;
+    color: #007272;
+    text-align: center;
+    border: 5px solid #007272;
+    cursor: pointer;
 }
 
 p {
-    color: rgb(17, 0, 255);
+    color: #3DB8B8;
 }
 
-/* Cascading always takes the selector that is in the end */
-
-p {
-    color: red;
+li {
+    list-style-type: none;
+    display: inline;
+    padding: 4px;
 }
