@@ -2,6 +2,10 @@
     Property: value;
 } */
 
+* {
+    text-align: right;
+}
+
 body {
     background-color: rgba(103, 207, 207, 0.45);   
 }
@@ -14,11 +18,25 @@ h2 {
 }
 
 p {
-    color: #3DB8B8;
+    color: rgb(6, 56, 56);
+    text-align: center;
+    border: 5px solid #007272;
 }
 
 li {
     list-style-type: none;
     display: inline;
     padding: 4px;
+}
+
+#div1 {
+    background-color: #3DB8B8;
+}
+
+#div2 {
+    background-color: bisque;
+}
+
+div :hover {
+    background-color: aquamarine;
 }
