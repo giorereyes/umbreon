@@ -31,12 +31,16 @@ body {
 .links {
   font-size: 28px;
   z-index: 103;
-  margin-top: 200px;
+  margin-top: 210px;
+  margin-left: 42px;
+  display: inline-flex;
 }
 
 .links a {
   color: rgb(239, 123, 14);
   text-decoration: none;
+  padding: 2px;
+  height: 24.5px;;
 }
 
 .links a:hover {
@@ -91,6 +95,7 @@ section {
 .bio {
   font-size: 19px;
   padding: 8px;
+  margin-left: -150px;
 }
 
 .bio p {
