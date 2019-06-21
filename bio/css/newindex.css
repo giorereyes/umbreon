@@ -7,7 +7,7 @@ body {
 /* HEADER STYLES */
 .header {
   position: fixed;
-  background-color: rgb(2, 131, 149);
+  background-color: rgb(54, 184, 201);
   padding: 10px;
   width: 100%;
   top: 0;
@@ -29,12 +29,9 @@ body {
 
 /* LINKS */
 .links {
-  float: right;
-  margin-right: 17px;
   font-size: 28px;
-  font-weight: bold;
   z-index: 103;
-  color: rgb(239, 123, 14);
+  margin-top: 200px;
 }
 
 .links a {
@@ -43,7 +40,7 @@ body {
 }
 
 .links a:hover {
-  color: rgb(239, 123, 14);
+  color: rgb(54, 184, 201);
 }
 
 /* PHOTO STYLE */
@@ -80,9 +77,10 @@ section {
 
 /* MOBILE PHOTO */
 .photoHeadshot img {
-  border: 5px solid #fff;
-  background-color: rgb(54, 184, 201);
+  border: 5px solid rgb(54, 184, 201);
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
+  margin-top: 15px;
   height: 150px;
   position: relative;
   width: 150px;
