@@ -29,12 +29,13 @@ li {
     padding: 4px;
 }
 
-#div1 {
+.webtext {
     background-color: #3DB8B8;
 }
 
 #div2 {
-    background-color: bisque;
+    margin-left: 155px;
+    margin-right: 155px;
 }
 
 div :hover {
