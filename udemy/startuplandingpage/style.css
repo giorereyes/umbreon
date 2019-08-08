@@ -7,15 +7,24 @@ html {
 body {
   font-family: 'Montserrat', sans-serif;
   background-image: url(ts.jpg);
-  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.container {
+  float: left;
+  width: 1000px;
+  margin-top: 300px;
+  margin-left: 450px;
 }
 
 .maintext {
   color: white;
   font-size: 30px;
-
+  text-align: center;
 }
 
 .button {
-  background-color: pink;
+  margin-left: 200px;
+  margin-top: 20px;
 }
