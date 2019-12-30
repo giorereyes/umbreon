@@ -2,13 +2,14 @@
 body {
   background-color: rgb(247, 246, 239);
   font-family: "Karla", sans-serif;
+  margin-top: 100px;
 }
 
 /* HEADER STYLES */
 .header {
   position: fixed;
   background-color: rgb(54, 184, 201);
-  padding: 10px;
+  padding: 25px;
   width: 100%;
   top: 0;
   margin-right: 0;
@@ -116,21 +117,23 @@ section {
   }
   main {
     width: 100%;
-    margin-top: 60px;
   }
-  section .bio {
-    font-size: 16px;
-    text-align: left;
+  .links a:hover {
+    display: none;
   }
   section {
     text-align: center;
+  }
+  section .bio {
+    text-align: left;
+    padding-left: 185px;
   }
   section .bio p {
     font-size: 23px;
   }
   .mainContent {
     margin-left: 0;
-    margin-top: 0;
+    margin-top: -120px;
   }
 }
 
