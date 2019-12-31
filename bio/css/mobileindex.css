@@ -1,0 +1,42 @@
+/* MOBILE PHOTO */
+.photoHeadshot img {
+  border: 5px solid rgb(37, 36, 36);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin-top: 15px;
+  height: 150px;
+  position: relative;
+  width: 150px;
+  z-index: -2;
+}
+
+/* MOBILE MEDIA QUERY */
+@media (max-width: 670px) {
+  .photo {
+    display: none;
+  }
+  main {
+    width: 100%;
+  }
+  .links a:hover {
+    display: none;
+  }
+  section {
+    text-align: center;
+  }
+  section .bio {
+    text-align: left;
+  }
+  section .bio p {
+    font-size: 23px;
+  }
+  .mainContent {
+    margin-left: 0;
+  }
+}
+
+@media (min-width: 669px) {
+  .photoHeadshot {
+    display: none;
+  }
+}
