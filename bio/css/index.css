@@ -52,6 +52,14 @@ section {
 }
 
 /* BIO */
+.bio {
+  width: 100%;
+  font-size: 19px;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: white;
+}
+
 .bio p {
   font-size: 30px;
   font-weight: bolder;
@@ -63,13 +71,7 @@ section {
   margin-top: -10px;
 }
 
-.bio {
-  width: 100%;
-  font-size: 19px;
-  padding-right: 25px;
-  padding-left: 25px;
-  color: white;
-}
+
 
 
 
@@ -80,6 +82,7 @@ section {
 /* LETS CONNECT */
 .connect {
   padding: 25px;
+  padding-left: 172px;
   width: 100%;
   z-index: 2;
   font-size: 19px;
@@ -91,6 +94,7 @@ section {
   font-size: 28px;
   z-index: 103;
   display: inline-flex;
+  padding-left: 20px;
 }
 
 .links a {

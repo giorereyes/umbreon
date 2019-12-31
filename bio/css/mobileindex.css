@@ -33,13 +33,15 @@
     text-align: left;
     width: 100%;
     padding: 0px;
+    
   }
   section .bio p {
     font-size: 23px;
   }
   .mainContent {
-    margin-top: -85px;
+    margin-top: -95px;
     margin-left: 0px;
+    
   }
   .connect {
     padding: 0px;
