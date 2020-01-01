@@ -12,9 +12,6 @@ body {
 
 /* PHOTO STYLE */
 .photo img {
-  margin-right: 5px;
-  margin-left: -15px;
-  margin-top: -15px;
   background-color: rgb(255, 255, 255);
   border: 5px solid rgb(0, 217, 255);
   border-radius: 50%;
@@ -29,13 +26,12 @@ main {
   display: flex;
   text-align: center;
   width: 670px;
-  margin: 0 auto;
+  margin: auto;
   margin-top: 80px;
 }
 
 .mainContent {
-  margin-left: 215px;
-  margin-top: -10px;
+  margin-left: 225px;
 }
 
 /* BIO */
@@ -44,8 +40,8 @@ main {
 }
 
 .bio p {
-  font-size: 2.5vw;
-  font-weight: bolder;
+  font-size: 2.5rem;
+  font-weight: 900;
   text-align: center;
   padding-bottom: 10px;
   margin-top: -10px;
@@ -60,28 +56,22 @@ main {
 
 /* LETS CONNECT */
 .connect {
-
-  width: 100%;
+  font-weight: 900;
+  padding-top: 22px;
   z-index: 2;
   color: white;
 }
 
 /* LINKS */
 .links {
-  position: relative;
-  font-size: 28px;
-  z-index: 103;
-  display: inline-flex;
-  
-  /* padding-left: 48px; */
-  padding-top: 3px;
+  font-weight: 100;
+  font-size: 30px;
+  padding-top: 6px;
 }
 
 .links a {
   color: rgb(255, 255, 255);
-  padding: 2px;
-  padding-left: 3px;
-  padding-right: 3px;
+  padding: 14px;
 }
 
 .links a:hover {
