@@ -46,7 +46,16 @@
     padding-right: 16px;
   }
   .connect {
-    padding: 0px;
+    padding-left: 0px;
+    padding-bottom: 250px;
+  }
+
+  div .connect p {
+    padding-bottom: 10px;
+  }
+
+  div .links {
+    padding-left: 0px;
   }
 }
 

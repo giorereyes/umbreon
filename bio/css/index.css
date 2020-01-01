@@ -63,10 +63,6 @@ section {
 
 
 
-
-
-
-
 /* LETS CONNECT */
 .connect {
   padding: 25px;
@@ -148,9 +144,7 @@ s
   width: 100%;
 }
 
-#mc_embed_signup .mc-field-group input {
-  
-}
+
 
 .mc-field-group input {
   font-family: "Karla", sans-serif;
