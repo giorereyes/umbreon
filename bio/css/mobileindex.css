@@ -17,8 +17,9 @@
   .photo {
     display: none;
   }
-  #photoHeadshot {
-    background-color: rgb(0, 217, 255);
+  .photoHeadshot {
+    padding-top: 10px;
+    padding-bottom: 20px;
   }
   main {
     width: 100%;
@@ -41,7 +42,8 @@
   .mainContent {
     margin-top: -95px;
     margin-left: 0px;
-    
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .connect {
     padding: 0px;
