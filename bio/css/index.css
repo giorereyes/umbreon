@@ -51,6 +51,20 @@ main {
 
 
 
+/* PROJECTS */
+.projects {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: auto auto;
+  /* grid-template-columns: repeat(auto-fill, minmax(445px, 1 fr)); */
+  padding-top: 20px;
+}
+
+.box > img {
+  width: 50%;
+}
+
+
 
 
 
