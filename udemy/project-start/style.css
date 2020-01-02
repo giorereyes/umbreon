@@ -1,31 +1,44 @@
+body {
+    margin: auto 0;
+}
+
 .zone {
-    display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-template-rows: 300px;
+    cursor:pointer;
+    /* display:inline-block; */
     color:#FFF;
     font-size:2em;
     transition: all 0.3s linear;
 }
 
-.green {
-    grid-column: span 4;
-    height: 50px;
+/* NAV */
+.main-nav {
+    display: flex;
+    list-style: none;
+    font-size: 0.7em;
+    margin: 0;
 }
 
-.red {
-    grid-column: span 4;
-    height: 600;
+li {
+    padding: 20px;
 }
 
-.blue {
-    grid-column: span 4;
-    height: 850px;
+a {
+    color: white;
+    text-decoration: none;
 }
 
-.yellow {
-    grid-column: span 4;
-    height: 40px;
+.push {
+    margin-left: auto;
 }
+
+/* CONTAINER */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
 
 .zone:hover {
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
